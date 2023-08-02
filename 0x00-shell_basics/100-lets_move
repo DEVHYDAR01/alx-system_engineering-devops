@@ -1,2 +1,2 @@
 #!/bin/bash
-mv [[:U:]]* /tmp/u
+'[[:upper:]]*' -exec mv -t ~/tmp/u {} +
